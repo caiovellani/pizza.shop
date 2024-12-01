@@ -1,19 +1,15 @@
-import {
-  ArrowRight,
-  Search,
-  X
-} from "lucide-react";
-import { Helmet } from "react-helmet-async";
-import { Button } from "../../../components/ui/button";
-import { Input } from "../../../components/ui/input";
+import { ArrowRight, Search, X } from 'lucide-react'
+import { Helmet } from 'react-helmet-async'
+import { Button } from '../../../components/ui/button'
+import { Input } from '../../../components/ui/input'
 import {
   Table,
   TableBody,
   TableCell,
   TableHead,
   TableHeader,
-  TableRow
-} from "../../../components/ui/table";
+  TableRow,
+} from '../../../components/ui/table'
 
 export function Orders() {
   return (
@@ -69,9 +65,7 @@ export function Orders() {
                     <TableCell className="font-medium">
                       Caio Vellani Borges
                     </TableCell>
-                    <TableCell className="font-medium">
-                      R$ 100,00
-                    </TableCell>
+                    <TableCell className="font-medium">R$ 100,00</TableCell>
                     <TableCell>
                       <Button variant="outline" size="xs">
                         <ArrowRight className="mr-3 h-3 w-3" />
@@ -84,7 +78,7 @@ export function Orders() {
                         Cancelar
                       </Button>
                     </TableCell>
-              </TableRow>
+                  </TableRow>
                 )
               })}
             </TableBody>
