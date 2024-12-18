@@ -12,14 +12,6 @@ import { BarChart } from 'lucide-react'
 import { useQuery } from '@tanstack/react-query'
 import { getPopularProducts } from '../../../../api/get-popular-products'
 
-const data = [
-  { products: 'Pepperoni', amount: 40 },
-  { products: 'Mussarela', amount: 30 },
-  { products: 'Calabresa', amount: 50 },
-  { products: 'Portuguesa', amount: 16 },
-  { products: 'Marguerita', amount: 26 },
-]
-
 const COLORS = [
   colors.sky[500],
   colors.amber[500],
