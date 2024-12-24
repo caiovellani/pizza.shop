@@ -12,8 +12,8 @@ interface OrderStatusProps {
 const orderStatusMap: Record<OrderStatus, string> = {
   pending: 'Pendente',
   canceled: 'Cancelado',
-  delivering: 'Em entrega',
   delivered: 'Entregue',
+  delivering: 'Em entrega',
   processing: 'Em preparo',
 }
 
@@ -48,7 +48,7 @@ export function OrderStatus({ status }: OrderStatusProps) {
         />
       )}
 
-      <span data-testid="badge" className="font-medium text-muted-foreground">
+      <span className="font-medium text-muted-foreground">
         {orderStatusMap[status]}
       </span>
     </div>
