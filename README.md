@@ -41,4 +41,4 @@ Create a .env file at the root of the project and add the required environment v
  npm run dev
 ```
   	
-## Then, open http://localhost:3000 in your browser to view the app.
+### Then, open http://localhost:3000 in your browser to view the app.
