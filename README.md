@@ -22,18 +22,19 @@
 
 ## 🛠️ Como Rodar o Projeto
 
+
 ```
-`Clone o repositório:`
+### 1.Clone o repositório:
    git clone https://github.com/caiovellani/pizza.shop.git
    cd pizza.shop
 
-`Instale as dependências:`
+### 2.Instale as dependências:
     npm install
   	
-`Configure as variáveis de ambiente:`
+### 3.Configure as variáveis de ambiente:
 Crie um arquivo .env na raiz do projeto e adicione as variáveis necessárias, como as credenciais do Firebase e do PostgreSQL.
 
-`Inicie o servidor de desenvolvimento:`
+### 4.Inicie o servidor de desenvolvimento:
     npm run dev
   	
 Acesse http://localhost:3000 no seu navegador para visualizar a aplicação.```
