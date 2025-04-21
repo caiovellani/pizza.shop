@@ -24,8 +24,9 @@
 
 ### 1.Clone o repositório:
 ```bash
-   git clone https://github.com/caiovellani/pizza.shop.git
-   cd pizza.shop```
+git clone https://github.com/caiovellani/pizza.shop.git
+cd pizza.shop
+```
 
 ### 2.Instale as dependências:
 ```bash
