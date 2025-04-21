@@ -1,44 +1,44 @@
 # 🍕 pizza.shop
 
-**pizza.shop** é uma aplicação web moderna para gerenciamento de pedidos de pizzaria, desenvolvida com foco em performance, escalabilidade e boas práticas de desenvolvimento front-end.
+**pizza.shop** is a modern web application for managing pizzeria orders, built with a focus on performance, scalability, and front-end development best practices.
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Technologies Used
 
-- **React** & **Next.js** – Frameworks para construção de interfaces modernas e performáticas  
-- **TypeScript** – Tipagem estática para maior segurança e manutenibilidade do código  
-- **TailwindCSS** – Estilização rápida e responsiva com classes utilitárias  
-- **Node.js** – Ambiente de execução para o backend  
-- **PostgreSQL** – Banco de dados relacional robusto  
-- **Firebase** – Soluções em tempo real e autenticação  
-- **Git & GitHub** – Controle de versão e colaboração em equipe
+- **React** & **Next.js** – Frameworks for building fast and modern user interfaces  
+- **TypeScript** – Static typing for improved code safety and maintainability  
+- **TailwindCSS** – Utility-first CSS for responsive and fast styling  
+- **Node.js** – Runtime environment for backend logic  
+- **PostgreSQL** – Robust relational database  
+- **Firebase** – Real-time services and authentication  
+- **Git & GitHub** – Version control and team collaboration
 
-## 📦 Funcionalidades
+## 📦 Features
 
-- Sistema completo de pedidos de pizza  
-- Interface responsiva e intuitiva  
-- Integração com banco de dados para gerenciamento de produtos e pedidos  
-- Autenticação de usuários  
-- Deploy otimizado para produção
+- Full-featured pizza ordering system  
+- Responsive and intuitive user interface  
+- Database integration for product and order management  
+- User authentication  
+- Optimized deployment for production
 
-## 🛠️ Como Rodar o Projeto
+## 🛠️ How to Run the Project
 
-### 1.Clone o repositório:
+### 1. Clone the repository:
 ```bash
 git clone https://github.com/caiovellani/pizza.shop.git
 cd pizza.shop
 ```
 
-### 2.Instale as dependências:
+### 2. Install dependencies:
 ```bash
  npm install
 ```
   	
-### 3.Configure as variáveis de ambiente:
-Crie um arquivo .env na raiz do projeto e adicione as variáveis necessárias, como as credenciais do Firebase e do PostgreSQL.
+### 3. Configure environment variables:
+Create a .env file at the root of the project and add the required environment variables, such as Firebase and PostgreSQL credentials.
 
-### 4.Inicie o servidor de desenvolvimento:
+### 4. Start the development server:
 ```bash
  npm run dev
 ```
   	
-Acesse http://localhost:3000 no seu navegador para visualizar a aplicação.
+## Then, open http://localhost:3000 in your browser to view the app.
