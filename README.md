@@ -8,8 +8,7 @@
 - **TypeScript** – Static typing for improved code safety and maintainability  
 - **TailwindCSS** – Utility-first CSS for responsive and fast styling  
 - **Node.js** – Runtime environment for backend logic  
-- **PostgreSQL** – Robust relational database  
-- **Firebase** – Real-time services and authentication  
+- **PostgreSQL** – Robust relational database    
 - **Git & GitHub** – Version control and team collaboration
 
 ## 📦 Features
@@ -34,7 +33,7 @@ cd pizza.shop
 ```
   	
 ### 3. Configure environment variables:
-Create a .env file at the root of the project and add the required environment variables, such as Firebase and PostgreSQL credentials.
+Create a .env file at the root of the project and add the required environment variables, such as and PostgreSQL credentials.
 
 ### 4. Start the development server:
 ```bash
