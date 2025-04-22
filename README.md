@@ -33,7 +33,7 @@ cd pizza.shop
 ```
   	
 ### 3. Configure environment variables:
-Create a .env file at the root of the project and add the required environment variables, such as and PostgreSQL credentials.
+Create a .env file at the root of the project and add the required environment variables, PostgreSQL credentials.
 
 ### 4. Start the development server:
 ```bash
